@@ -1,0 +1,40 @@
+:root {
+  --bs-link-color: #000000;
+}
+
+.kolom__produk__header{
+  width: 14.2% !important;
+}
+.kolom__produk__header .card{
+  height: 21rem !important;
+}
+.nav-pills {
+  color: rgb(0, 0, 0) !important;
+  --bs-nav-pills-link-active-bg: #f85523 !important;
+}
+hr {
+  margin: 1rem 0;
+  color: black;
+  border: 0;
+  border-top: 4px solid !important;
+}
+
+h6{
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+}
+.head_jumbotron_limited .card-title{
+    text-align: center !important;
+}
+.head_jumbotron_limited .card-text{
+    text-align: center !important;
+}
+.card-footer{
+    text-align: center !important;
+}
+.button__card__footer{
+    text-align: center !important;
+}
+.star3{
+  width: 60%;
+}
