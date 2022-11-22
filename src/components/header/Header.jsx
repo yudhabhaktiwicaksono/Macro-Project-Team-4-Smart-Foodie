@@ -4,7 +4,17 @@ import { SlBasket } from "react-icons/sl";
 import { GiSelfLove } from "react-icons/gi";
 import React from "react";
 import "./header.css";
-import { Button, Container, Form, Nav, Navbar, NavDropdown, Row, Col } from "react-bootstrap";
+import Love from "../../assets/Love-love.png";
+import {
+  Button,
+  Container,
+  Form,
+  Nav,
+  Navbar,
+  NavDropdown,
+  Row,
+  Col,
+} from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -17,7 +27,13 @@ const Header = () => {
           <Row>
             <Row>
               <Navbar.Collapse id="navbarScroll">
-                <Nav variant="pills" defaultActiveKey="#action2" className="me-auto my-2 my-lg-0 nav__atas nav-pills" style={{ maxHeight: "100px" }} navbarScroll>
+                <Nav
+                  variant="pills"
+                  defaultActiveKey="#action2"
+                  className="me-auto my-2 my-lg-0 nav__atas nav-pills"
+                  style={{ maxHeight: "100px" }}
+                  navbarScroll
+                >
                   <Nav.Link id="menu__header" href="#action1">
                     <b>Home</b>
                   </Nav.Link>
@@ -33,25 +49,37 @@ const Header = () => {
                 </Nav>
                 <div className="icon__bungkus">
                   <div className="btn icon_nav">
-                    <GiSelfLove />
+                    <img src={Love} alt="" width="30px" />
                   </div>
                   <div className="btn icon_nav">
                     <SlBasket />
                   </div>
                 </div>
-                <Button variant="btn btn-success sign px-3">Sign in</Button>
+                <Button variant="btn sign px-3" className="tombol-masuk">
+                  Sign in
+                </Button>
               </Navbar.Collapse>
             </Row>
             <Row className="mt-2">
               <Navbar.Collapse id="navbarScroll">
                 <Col sm={5}>
                   <Form className="d-flex">
-                    <Form.Control type="search" placeholder="Select Locaiton" className="me-2" aria-label="Search" />
+                    <Form.Control
+                      type="search"
+                      placeholder="Select Locaiton"
+                      className="me-2"
+                      aria-label="Search"
+                    />
                   </Form>
                 </Col>
                 <Col sm={7}>
                   <Form className="d-flex">
-                    <Form.Control type="search" placeholder="Enter keyword to search" className="me-2" aria-label="Search" />
+                    <Form.Control
+                      type="search"
+                      placeholder="Enter keyword to search"
+                      className="me-2"
+                      aria-label="Search"
+                    />
                   </Form>
                 </Col>
               </Navbar.Collapse>

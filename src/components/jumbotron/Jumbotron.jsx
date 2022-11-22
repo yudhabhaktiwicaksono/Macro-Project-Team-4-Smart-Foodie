@@ -9,8 +9,17 @@ import eggplant from "../../assets/eggplant.jpg";
 import s3 from "../../assets/s3.jpg";
 import Kategory from "../category/Kategory";
 import Popular from "../popular/Popular";
+import Lope from "../../assets/Love-love.png";
 
-import { Card, Container, Button, Row, Col, Nav, Navbar } from "react-bootstrap";
+import {
+  Card,
+  Container,
+  Button,
+  Row,
+  Col,
+  Nav,
+  Navbar,
+} from "react-bootstrap";
 import { SlBasket } from "react-icons/sl";
 import { GiSelfLove } from "react-icons/gi";
 
@@ -27,11 +36,19 @@ const Jumbotron = () => {
               </b>
             </div>
           </Card.Body>
-          <div bg="light" expand="lg" className="px-2 mt-1 pb-5 head_jumbotron_limited">
+          <div
+            bg="light"
+            expand="lg"
+            className="px-2 mt-1 pb-5 head_jumbotron_limited"
+          >
             <Row>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={sayur1} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={sayur1}
+                  />
                   <Card.Footer>
                     <Card.Title>SAY CABAGE</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />
@@ -57,7 +74,11 @@ const Jumbotron = () => {
               </Col>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={mushroom} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={mushroom}
+                  />
                   <Card.Footer>
                     <Card.Title>MASHROOM</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />
@@ -83,7 +104,11 @@ const Jumbotron = () => {
               </Col>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={cassava} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={cassava}
+                  />
                   <Card.Footer>
                     <Card.Title>CASSAVA</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />
@@ -109,7 +134,11 @@ const Jumbotron = () => {
               </Col>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={pumpkin} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={pumpkin}
+                  />
                   <Card.Footer>
                     <Card.Title>PUMPKIN</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />
@@ -135,7 +164,11 @@ const Jumbotron = () => {
               </Col>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={potato} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={potato}
+                  />
                   <Card.Footer>
                     <Card.Title>POTATO</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />
@@ -161,7 +194,11 @@ const Jumbotron = () => {
               </Col>
               <Col sm={2} className="mx-3 kolom__produk__header">
                 <Card style={{ width: "13rem" }}>
-                  <Card.Img variant="top" style={{ height: "12rem" }} src={eggplant} />
+                  <Card.Img
+                    variant="top"
+                    style={{ height: "12rem" }}
+                    src={eggplant}
+                  />
                   <Card.Footer>
                     <Card.Title>EGGPLANTE</Card.Title>
                     <Card.Img variant="top" className="star3" src={s3} />

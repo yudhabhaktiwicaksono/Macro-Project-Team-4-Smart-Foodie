@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(59, 143, 59);
+  background-color: #59bc1d;
   color: white;
 }
 .icon__mail {
@@ -51,7 +51,7 @@
 }
 .about__company {
   text-align: justify !important;
-  padding-top: 4rem !important;
+  padding-top: 2rem !important;
 }
 .about__company p {
   margin-top: 1rem !important;
@@ -59,7 +59,7 @@
 .about__dec__footer {
   margin-right: 8rem !important;
 }
-.about__company .col-sm-1{
+.about__company .col-sm-1 {
   width: 11.5% !important;
 }
 .des_li ul {
@@ -73,23 +73,27 @@
   font-size: 14px;
   margin-top: 1.5rem !important;
 }
-.des_li ul li{
+.des_li ul li {
   margin-top: 0.5rem !important;
   opacity: 0.8;
 }
-.des_li ul li b{
+.des_li ul li b {
   margin-top: 0.5rem !important;
   opacity: 0.9;
 }
 
-.payment__method{
+.payment__method {
   margin-top: 0.5rem !important;
 }
-.privacy__policy{
+.privacy__policy {
   background-color: rgb(218, 223, 226);
   padding: 1.5rem 15rem;
 }
-.aplly__filter{
+.aplly__filter {
   align-items: center;
   text-align: center;
+}
+
+li {
+  list-style: none;
 }

@@ -12,7 +12,16 @@ import gpn from "../../assets/gpn.svg";
 import visa from "../../assets/visa.svg";
 import "./footer.css";
 import { FiMail } from "react-icons/fi";
-import { Button, Container, Form, Nav, Navbar, NavDropdown, Row, Col } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Form,
+  Nav,
+  Navbar,
+  NavDropdown,
+  Row,
+  Col,
+} from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -27,13 +36,19 @@ const Footer = () => {
               <div className="col-sm-4 subscribe__desc">
                 <h3>Subscribe To Our Newsletter</h3>
                 <small>
-                  And get best other and updates aboute your fovorite product <br /> and recipes
+                  And get best other and updates aboute your fovorite product{" "}
+                  <br /> and recipes
                 </small>
               </div>
               <div className="col-sm-7 subscribe__desc">
                 <Col sm={7}>
                   <Form className="d-flex">
-                    <Form.Control type="search" placeholder="Enter your email here" className="search__footer" aria-label="Search" />
+                    <Form.Control
+                      type="search"
+                      placeholder="Enter your email here"
+                      className="search__footer"
+                      aria-label="Search"
+                    />
                     <a className="btn tombol__orange">Search</a>
                   </Form>
                 </Col>
@@ -43,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="contanct__footer">
-        <div className="follow__us pt-4 mt-4">
+        <div className="follow__us pt-4 mt-2">
           <Row>
             <Col sm={4}>
               <img className="logo-footer" src={logo} alt="1day-fresh" />
@@ -56,10 +71,10 @@ const Footer = () => {
                   </h6>
                 </Col>
                 <Col sm={1}>
-                  <img className="svg-footer" src={ig} alt="1day-fresh" />
+                  <img className="svg-footer" src={fb} alt="1day-fresh" />
                 </Col>
                 <Col sm={1}>
-                  <img className="svg-footer" src={fb} alt="1day-fresh" />
+                  <img className="svg-footer" src={ig} alt="1day-fresh" />
                 </Col>
                 <Col sm={1}>
                   <img className="svg-footer" src={twiter} alt="1day-fresh" />
@@ -78,8 +93,8 @@ const Footer = () => {
                 </b>
               </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum blanditiis iusto dolores mollitia deleniti eligendi magni! Ipsa perspiciatis reprehenderit ratione doloribus autem. Laboriosam ex vitae amet
-                ipsam iusto delectus veniam?
+                Since 2022, 1DayFresh is actively helping to simplified our
+                society life by providing fresh groceries to your door.
               </p>
             </Col>
             <Col sm={3}>
@@ -169,7 +184,10 @@ const Footer = () => {
             <p>1day-fresh, enjoy your life from home</p>
           </Col>
           <Col sm={3}>
-            <p> <b>Tern And Conditions | Privacy Policy </b></p>
+            <p>
+              {" "}
+              <b>Tern And Conditions | Privacy Policy </b>
+            </p>
           </Col>
         </Row>
       </div>
