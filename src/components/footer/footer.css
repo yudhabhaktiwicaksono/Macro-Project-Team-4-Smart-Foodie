@@ -25,8 +25,9 @@
   color: white;
 }
 .tombol__orange:hover {
-  background-color: rgb(255, 72, 0);
-  color: black;
+  background-color: white;
+  color: rgb(255, 72, 0);
+  transition: 0.3s ease;
 }
 .search__footer {
   border-radius: 2px !important;

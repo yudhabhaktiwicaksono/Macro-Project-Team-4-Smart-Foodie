@@ -15,8 +15,11 @@ import {
   Row,
   Col,
 } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import { SIGN_IN } from "../../router";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div id="header">
       <Navbar bg="light" expand="lg" className="px-5 mx-5 mt-4 pb-5">
@@ -55,8 +58,12 @@ const Header = () => {
                     <SlBasket />
                   </div>
                 </div>
-                <Button variant="btn sign px-3" className="tombol-masuk">
-                  Sign in
+                <Button
+                  variant="btn sign px-3"
+                  className="tombol-masuk"
+                  onClick={() => navigate(SIGN_IN)}
+                >
+                  Sign In
                 </Button>
               </Navbar.Collapse>
             </Row>
@@ -66,7 +73,7 @@ const Header = () => {
                   <Form className="d-flex">
                     <Form.Control
                       type="search"
-                      placeholder="Select Locaiton"
+                      placeholder="Select market location"
                       className="me-2"
                       aria-label="Search"
                     />

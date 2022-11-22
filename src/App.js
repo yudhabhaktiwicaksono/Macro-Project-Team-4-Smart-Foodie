@@ -1,22 +1,18 @@
-import "./App.css";
-import Cheader from "./components/header/Header";
-import Cjumbotron from "./components/jumbotron/Jumbotron";
-import Cfooter from "./components/footer/Footer";
-
+import Jumbotron from "./components/jumbotron/Jumbotron";
+import SignIn from "./components/SignIn/SignIn";
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { SIGN_IN, CATEGORY } from "../src/router";
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="content px-5">
-          <Cheader />
-          <Cjumbotron />
-        </div>
-      </header>
-      <Cfooter />
-    </div>
+    <>
+      <Routes>
+        <Route path={CATEGORY} element={<Jumbotron />} />
+        <Route path={SIGN_IN} element={<SignIn />} />
+      </Routes>
+    </>
   );
 }
 

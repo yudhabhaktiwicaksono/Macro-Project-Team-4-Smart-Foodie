@@ -11,6 +11,7 @@ import ovo from "../../assets/ovo.svg";
 import gpn from "../../assets/gpn.svg";
 import visa from "../../assets/visa.svg";
 import "./footer.css";
+import surat from "../../assets/kop-surat.png";
 import { FiMail } from "react-icons/fi";
 import {
   Button,
@@ -31,7 +32,7 @@ const Footer = () => {
           <div className="subscribe__footer">
             <div className="row">
               <div className="col-sm-1 icon__mail pl-5">
-                <FiMail />
+                <img src={surat} alt="" />
               </div>
               <div className="col-sm-4 subscribe__desc">
                 <h3>Subscribe To Our Newsletter</h3>
@@ -49,7 +50,7 @@ const Footer = () => {
                       className="search__footer"
                       aria-label="Search"
                     />
-                    <a className="btn tombol__orange">Search</a>
+                    <a className="btn tombol__orange">Submit</a>
                   </Form>
                 </Col>
               </div>
@@ -185,7 +186,6 @@ const Footer = () => {
           </Col>
           <Col sm={3}>
             <p>
-              {" "}
               <b>Tern And Conditions | Privacy Policy </b>
             </p>
           </Col>
