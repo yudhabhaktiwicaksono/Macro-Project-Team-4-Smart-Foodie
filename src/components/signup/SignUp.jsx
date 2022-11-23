@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const SignUp = () => {
   return (
     <div className="Bungkusan">
-      <div className="Konten-Kartu">
-        <div className="Kartu">
+      <div className="Konten-Kartu ms-auto ">
+        <div className="Kartu m-5">
           <h1>Sign Up</h1>
           <Form>
             <Container>
