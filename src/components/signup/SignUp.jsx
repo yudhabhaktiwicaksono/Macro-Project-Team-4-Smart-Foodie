@@ -1,23 +1,23 @@
-import { Form, Button, Container } from "react-bootstrap";
-import "./Sign.css";
-import { SIGN_UP } from "../../router";
-import { useNavigate } from "react-router-dom";
-
-const SignIn = () => {
-  const navigate = useNavigate();
+import { Form, Button } from "react-bootstrap";
+import "./signup.css";
+import { Container } from "react-bootstrap";
+const SignUp = () => {
   return (
     <div className="Bungkusan">
       <div className="Konten-Kartu">
-        <div className="Kartu mt">
-          <h1>Sign In</h1>
+        <div className="Kartu">
+          <h1>Sign Up</h1>
           <Form>
             <Container>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Container>
-                  <Form.Label>Email address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
-                  <Form.Text className="text-muted"></Form.Text>
-                </Container>
+                <Form.Label>Email address</Form.Label>
+                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Text className="text-muted"></Form.Text>
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Username</Form.Label>
+                <Form.Control type="text" placeholder="Enter your username" />
+                <Form.Text className="text-muted"></Form.Text>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -28,13 +28,6 @@ const SignIn = () => {
                 <Form.Check type="checkbox" label="Check me out" />
               </Form.Group>
               <Button className="tombol" type="submit">
-                Sign In
-              </Button>
-              <Button
-                className="tombol"
-                onClick={() => navigate(SIGN_UP)}
-                type="submit"
-              >
                 Sign Up
               </Button>
             </Container>
@@ -45,4 +38,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default SignUp;
