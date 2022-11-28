@@ -1,20 +1,26 @@
-import Jumbotron from "./components/jumbotron/Jumbotron";
-import SignIn from "./components/SignIn/SignIn";
-import SignUp from "./components/signup/SignUp";
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { SIGN_IN, SIGN_UP, CATEGORY } from "../src/router";
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import ImageSlider from './component/ImageSlider';
 
 function App() {
+ const slides = [
+  {url:"http://localhost:3000/image-1.jpg",title: "Beach"},
+  {url:"http://localhost:3000/image-2.jpg",title: "Boat"},
+  {url:"http://localhost:3000/image-3.jpg",title: "Forest"},
+  {url:"http://localhost:3000/image-4.jpg",title: "City"},
+  {url:"http://localhost:3000/image-5.jpg",title: "Italy"},
+ ];
+const containerStyle ={
+  width : "100%",
+  height: "700px",
+  margin: "0 auto",
+};
+
   return (
-    <>
-      <Routes>
-        <Route path={CATEGORY} element={<Jumbotron />} />
-        <Route path={SIGN_IN} element={<SignIn />} />
-        <Route path={SIGN_UP} element={<SignUp />} />
-      </Routes>
-    </>
+    <div>
+     <div style={containerStyle}>
+     <ImageSlider slides={slides}/>
+     </div>
+    </div>
   );
 }
 

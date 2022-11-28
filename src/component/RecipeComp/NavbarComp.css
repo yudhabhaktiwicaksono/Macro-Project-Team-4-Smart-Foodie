@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+
+
+*{
+    font-family:'Poppins'
+}
+
+
+
+.logo{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 35px;
+    background: -webkit-linear-gradient( #486680,#4C846A,#5bfa123e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 15rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10rem;
+    border-bottom: 20px;
+    background-color: #f3f1f1;
+    
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 75%;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    
+   
+   
+}
+
+nav ul li a:hover{
+    background-color: #FED11D;
+    
+}
+
+
+
+.love{
+    width: 37px;
+    height: 37px;
+}
+
+button{
+    width: 115px;
+    height: 50px;
+    background-color: #63A600;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+input{
+    width: 530px;
+    margin-right: 170px;
+    height: 44px;
+}
+
+select{
+    width: 25rem;
+    height: 44px;
+}
+
+@media screen and (min-width:1023px) and (max-width:1380px){
+    input{
+        width: 500px;
+    }
+
+    select{
+        width: 20rem;
+    }
+}

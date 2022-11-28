@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header h1{
+    position: absolute;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.252);
+}
+
+.header h2{
+    position: absolute;
+}
+
+.header button{
+    position: relative;
+    top: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 234px;
+    height: 52px;
+    background-color:  #FED11D;
+    ;
+}
+
+.sayur{
+    width: 470px;
+}
+
+.fruit{
+    width: 870px;
+}
+
+.content-sayur{
+    margin-top: 10rem;
+}
+
+.content-sayur table{
+    border-spacing: 50px;
+}
+
+@media screen and (min-width :1023px) and (max-width:1380px) {
+    
+    .sayur{
+        width: 480px;
+    }
+
+    .fruit{
+        width: 800px;
+    }
+
+    .content-sayur table{
+        border-spacing: 1px;
+    }
+}
+

@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&display=swap');
+
+
+*{
+    font-family:'Poppins'
+}
+
+
+
+.logo{
+    width: 15rem;
+    
+}
+
+.logo h1{
+    font-size: 35px;
+    background: -webkit-linear-gradient( #486680,#4C846A,#5bfa123e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 15rem;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    height: 50px;
+    border-bottom: 20px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 75%;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    
+}
+
+nav ul li{
+    margin-right: 100px;
+    
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+   
+   
+}
+
+nav ul li a:hover{
+    background-color: #FED11D;
+    
+}
+
+
+
+.love{
+    width: 37px;
+    height: 37px;
+}
+
+button{
+    width: 115px;
+    height: 50px;
+    background-color: #63A600;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+/* Hamburger Menu */
+
+.menu-toggle{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 20px;
+}
+
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.carousel{
+    position: relative;
+}
+
+.FlashSale{
+    position: relative;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.flash-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+}
+
+.FlashSale button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FED11D;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.FlashSale button a{
+    color: black;
+    font-size: 20px;
+}
+
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    
+}
+
+.flash-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 50rem;
+}
+
+
+.categories{
+    margin-top: 5rem;
+    
+}
+
+.headerLatest{
+    margin-top: 15rem;
+    
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 7rem;
+}
+
+.headerLatest h1{
+    position: absolute;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.245);
+}
+
+.headerLatest h2{
+    position: absolute;
+    font-weight: bold;
+}
+.recipesLatest{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49rem;
+    bottom: 10rem;
+}
+
+.recipe-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+fieldset{
+    border-bottom: none;
+    border-left: none;
+    border-right: none ;
+    position: relative;
+    bottom: 12rem;
+    width: 80%;
+    padding: 100px;
+    
+}
+
+fieldset button {
+    background-color:#FED11D;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+fieldset button a{
+    font-size: 20px;
+    color: black;
+}
+
+.fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    position: relative;
+    bottom: 15rem;
+}
+
+
+

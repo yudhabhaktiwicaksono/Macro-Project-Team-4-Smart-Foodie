@@ -1,0 +1,34 @@
+.btn-tab{
+    background-color: #FAFAFA;
+    border: 1px solid #DFDEDE;
+    width: 155px;
+    height: 44px;
+    align-self: center;
+}
+
+.btn-tab a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-tab:hover{
+    background-color:#FED11D ;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 88px;
+    
+}
+
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FAFAFA;
+    width: 90rem;
+}
+

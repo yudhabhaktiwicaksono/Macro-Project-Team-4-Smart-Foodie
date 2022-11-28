@@ -1,0 +1,11 @@
+
+.readme{
+    display: flex;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.readme a{
+    text-decoration: none;
+    color: #68AD00;
+}

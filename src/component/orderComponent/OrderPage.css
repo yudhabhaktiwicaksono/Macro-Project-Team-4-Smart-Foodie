@@ -1,0 +1,6 @@
+#order-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 1500px;
+}

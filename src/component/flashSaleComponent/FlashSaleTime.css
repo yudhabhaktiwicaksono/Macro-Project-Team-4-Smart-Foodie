@@ -1,0 +1,27 @@
+.countdown  {
+    width: 600px;
+    height: 100px;
+    font-family: "Oswald";
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.countdown h2{
+    font-size:20px ;
+}
+
+.countdown span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.numbers {
+    width: 42px;
+    border-radius: 60px;
+    font-size: 20px;
+    color: #FF4D15;
+    font-weight: bold;
+}

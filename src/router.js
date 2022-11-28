@@ -1,4 +1,8 @@
-const SIGN_IN = "/sign-in";
-const SIGN_UP = "/sign-up";
-const CATEGORY = "/";
-export { SIGN_IN, CATEGORY, SIGN_UP };
+const HOME = "/";
+const CATEGORY = "/CategoriesPage";
+const RECIPE = "/RecipeComp";
+const OrderCard = "/";
+const ViewFlash ="/FlashSalePage";
+const PRODUCT ="/ProuctComp";
+const ORDER ="/OrderPage"
+export {HOME,CATEGORY,RECIPE,OrderCard,ViewFlash,PRODUCT,ORDER};

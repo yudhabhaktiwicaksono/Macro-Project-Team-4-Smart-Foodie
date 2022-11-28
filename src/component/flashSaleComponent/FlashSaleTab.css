@@ -1,0 +1,54 @@
+.flashSale-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flashSale-tabs{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 54px;
+    background-color:#F8F8F8;
+    border: 1px solid #E1E1E1;
+    justify-content: space-between;
+
+}
+
+.flashSale-btn1, .flashSale-btn2{
+    margin-left: 30px;
+}
+
+.flashSale-btn1 {
+    background-color: #FF4D15 ;
+    width: 83px;
+    height: 33px;
+    color: white;
+    border-radius: 4px;
+}
+
+.flashSale-btn1 a{
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.flashSale-btn2{
+    background-color: #F8F8F8 ;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    width: 110px;
+    height: 33px;
+}
+
+.flashSale-btn2 a{
+    font-size: 11px;
+    font-weight: bold;
+    color: black;
+}
+
+.FlashSale-time{
+    position: relative;
+    left: 90px;
+}

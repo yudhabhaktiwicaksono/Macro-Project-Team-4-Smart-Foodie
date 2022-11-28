@@ -1,0 +1,22 @@
+.product-container{
+    margin-top: 10rem;
+}
+
+
+
+.more-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.more-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    background-color:#FAFAFA;
+    flex-wrap: wrap;
+}

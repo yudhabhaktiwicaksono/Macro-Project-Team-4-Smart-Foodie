@@ -1,0 +1,16 @@
+.recipe-food{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 2000px;
+}
+
+#Recipe2{
+    margin-top: 10rem;
+}
+
+#Recipe3{
+    margin-top: 10rem;
+}

@@ -1,0 +1,104 @@
+.containerProduct{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.btn-product{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.btn-save{
+    background-color: #FFFFFF;
+    width: 395px;
+    height: 58px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+
+.btn-save a{
+    color: black;
+}
+
+.btn-share{
+    background-color: #FFFFFF;
+    width: 395px;
+    height: 58px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+
+.btn-share a{
+    color: black;
+}
+
+.btn-recipe{
+    background-color: #FFFFFF;
+    width: 395px;
+    height: 58px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+
+.btn-recipe a{
+    color: black;
+}
+
+.difculty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    border: 2px solid black;
+}
+
+.header-recipe{
+    position: absolute;
+}
+
+.ingredienst{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1450px;
+}
+
+table{
+    width: 80%;
+    height: 50rem
+}
+
+table th{
+    text-align: start;
+    font-size: 1.5rem;
+    background-color:#FF7F3F ;
+    
+}
+
+
+
+.Seasoning{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1450px;
+    margin-top: 3rem;
+}
+
+.Seasoning table td{
+    font-weight: bold;
+    background-color: #f0ecec;
+}
+
+.ingredienst table td{
+    font-weight: bold;
+    background-color: #f0ecec;
+}

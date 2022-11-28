@@ -1,0 +1,167 @@
+  #product-container{
+    display: flex;
+    justify-content:center;
+  
+
+  }
+  
+  #product-cards{
+    display: flex;
+    width: 1400px;
+   
+  }
+
+  
+  .count {
+    background: #2d3c8d;
+    padding: 10px;
+    border-radius: 50%;
+    min-width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    bottom: -8px;
+    left: -13px;
+  }
+  
+ 
+
+  .card-product {
+    width:841px;
+    height: 410px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border: 2px solid #DFDFDF;
+   
+  }
+  
+  .img-thumb-prod img {
+    width: 100%;
+    
+  }
+  
+  
+  .produk-title {
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+  .produk-price {
+    color: orange;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  .product-price{
+    background-color:#FAFAFA;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D5D5D5;
+    
+  }
+
+  .product-price:hover{
+    background-color: darkgrey;
+    color: black;
+  }
+  
+  .minus,
+  .plus {
+    color: black;
+    font-weight: bold;
+    height: 45px;
+    width: 45px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #D5D5D5;
+    margin: 10px 8px;
+   
+  }
+  
+  .plus{
+    position: relative;
+    right: 10.5rem;
+  }
+
+ 
+  .counter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   right: 23rem;
+   top: 7rem;
+  }
+
+  .check-out{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counter input {
+    height: 40px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    text-align: center;
+  }
+
+  .detail-product{
+   position: relative;
+   left: 2rem;
+  }
+
+  .detail-product p,h5{
+    margin: 10px;
+  }
+  .product-weight{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25rem;
+   
+  }
+
+  .product-weight button{
+    background-color: #ffffff ;
+    width: 88px;
+    height: 45px;
+    font-weight: bold;
+    border: 1px solid #DFDFDF;
+    z-index: 2;
+  }
+
+ .btn-weight:hover{
+    background-color:#FED11D ;
+  }
+
+  .counter2{
+    display: flex;
+    justify-content:space-evenly;
+    width: 20rem;
+    position: relative;
+    top: 4rem;
+    right: 23rem;
+  }
+
+  .btn-check{
+    width: 120px;
+    height:40px ;
+    font-weight: bold;
+    background-color:#FF4D15 ;
+  }
+
+  .btn-cart{
+    width: 120px;
+    height:40px ;
+    font-weight: bold;
+    background-color:#ff3c0028;
+    color: #FF4D15;
+  }
